@@ -1,0 +1,19 @@
+# Ignore node_modules directories in all packages
+**/node_modules/
+
+# Ignore built artifacts in all packages
+**/dist/
+**/build/
+
+# Ignore IDE and editor files
+**/.idea/
+**/.vscode/
+**/*.iml
+
+# Ignore logs and temporary files
+**/*.log
+**/*.log.*
+**/*.tmp
+
+# Ignore macOS-specific files
+.DS_Store
