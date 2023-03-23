@@ -6,6 +6,8 @@
   "workspaces": [
     "packages/*"
   ],
+  "nohoist": ["**/react-native", "**/react-native/**"],
+
   "scripts": {
     "web": "cd packages/web && react-scripts start",
     "ios": "cd packages/mobile && react-native run-ios",
