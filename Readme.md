@@ -42,6 +42,11 @@ After given steps you can run commands in root of monorepo:
 ``` 
 
 ## Credits
+Sources:
+- https://wise.com/gb/iban/montenegro
+- https://math.stackexchange.com/questions/1918217/the-mod97-operation-in-iban-validation
+- https://www.iban.com/iban-checker
+- https://pub.dev/documentation/mod97/latest/mod97/mod97.html
 
 List of contriubutors:
 - [Karen Hakobyan](https://www.github.com/khakobyan)

@@ -10,6 +10,7 @@
 
   "scripts": {
     "web": "cd packages/web && react-scripts start",
+    "test": "cd packages/web && react-scripts test",
     "ios": "cd packages/mobile && react-native run-ios",
     "android": "cd packages/mobile && react-native run-android",
     "start": "cd packages/mobile && react-native start"

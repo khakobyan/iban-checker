@@ -7,9 +7,9 @@ function App() {
   const [previousChecks, setPreviousChecks] = useState<IBANCheckResult[]>([]);
 
   useEffect(() => {
-    const loadPreviousChecks = async () => {
+    const loadPreviousChecks = () => {
       try {
-        const previousChecksJSON = await localStorage.getItem('previousChecks');
+        const previousChecksJSON = localStorage.getItem('previousChecks');
         if (previousChecksJSON) {
           const parsedPreviousChecks = JSON.parse(previousChecksJSON);
           setPreviousChecks(parsedPreviousChecks.slice(0, 10));
